@@ -54,7 +54,7 @@ The dataset was heavily imbalanced, with the **King** class having only 75 sampl
 
 
 ### 2. The 32x32 Resolution Limit
-At low resolutions, "Visual Aliasing" occurs—Bishops and Pawns share nearly identical silhouettes.
+At low resolutions, "Visual Aliasing" occurs - Bishops and Pawns share nearly identical silhouettes.
 * **Solution:** Applied **Gentle Data Augmentation** (limited rotation of 10°, slight color jitter) to maintain the integrity of the few available pixels.
 
 ---

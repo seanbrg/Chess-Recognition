@@ -60,9 +60,9 @@ At low resolutions, "Visual Aliasing" occurs - Bishops and Pawns share nearly id
 ---
 
 ##  Final Results & Diagnostics
-* **Best Validation Accuracy:** 68%
+* **Best Validation Accuracy:** 68% (when baseline guessing accuracy is ~16.6)
 * **Key Finding:** The model initially "collapsed" on the King class. By using a **Confusion Matrix**, we identified that the model was misidentifying Kings as Queens.
-* **Current Bottleneck:** The $32 \times 32$ resolution. At this scale, the "Cross" on a King or the "Slit" in a Bishop is represented by only 1-3 pixels.
+* **Current Bottleneck:** The $32 \times 32$ resolution. At this scale, the "Cross" on a King or the "Slit" in a Bishop is represented by only 1-3 pixels. The size and quality of the database remains a fundamental problem.
 
 ## Prerequisites
 * Python 3.12+
